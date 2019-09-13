@@ -2,7 +2,9 @@ import java.util.Scanner;
 public class Tugas2 {
     public static void main(String[] args){
         Scanner input = new Scanner (System.in);
-        int detik,menit,jam;
+        int detik;
+        int menit;
+        int jam;
 
         detik = input.nextInt();
         menit = detik/60;

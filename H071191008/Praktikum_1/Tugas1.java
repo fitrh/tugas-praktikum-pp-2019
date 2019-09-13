@@ -2,7 +2,8 @@ import java.util.Scanner;
 public class Tugas1 {
   public static void main(String[] args){
     Scanner input = new Scanner (System.in);
-    int waktu,kecepatan;
+    int waktu;
+    int kecepatan;
     float hasil;
 
     waktu = input.nextInt();
