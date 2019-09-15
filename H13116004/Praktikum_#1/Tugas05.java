@@ -10,6 +10,8 @@ public class Tugas05 {
         int b = input.nextInt();
 
         boolean c = (a%b == 0 && b%a == 0);
+        c = a != b;
         System.out.println("Apakah "+a+" Adalah kelipatan dari "+b+" ? : "+c);
+        input.close();
     }
 }
