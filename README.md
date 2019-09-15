@@ -21,3 +21,4 @@
 - [x] Cara mengumpulkan tugas sesuai dengan aturan diatas.
 - [x] _**Satu Praktikum, Satu Folder**_.
 - [x] _**Satu Soal, Satu Class**_.
+- [x] _**Program Berjalan dengan Baik dan Benar Berdasarkan Ketentuan Tugas**_.
