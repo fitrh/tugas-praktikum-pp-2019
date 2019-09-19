@@ -12,7 +12,8 @@
 7. Tugas anda dinyatakan **diterima** jika **branch NIM** anda telah _**merged**_ dengan **branch master** repositori ini.  
 
 ## Bagaimana Cara Mengetahui Jika **Branch NIM** telah _**Merged**_ dengan Repositori ini ?
- - Anda dapat memantau repositori ini atau tambahkan **remote** ke repositori ini sebagai **upstream** pada repositori lokal hasil *fork* anda.
+ - Anda dapat memantau repositori ini.
+ - Atau tambahkan **remote** ke repositori ini sebagai **upstream** pada repositori lokal hasil *fork* anda.
  - Jika anda menambahkan *remote* pada hasil *fork*, lakukan **merge** pada _branch **master**_ anda dengan _branch **master upstream**_.
  - Untuk cara sinkronisasi hasil *fork* dengan *upstream*, silahkan baca [Configure a remote for a fork](https://help.github.com/en/articles/configuring-a-remote-for-a-fork) dan [Syncing a fork](https://help.github.com/en/articles/syncing-a-fork).  
 
