@@ -48,7 +48,6 @@ class Praktikum2Numbers{
     if (input5 % 2 ==0){
       even++;
     }
-    odd = 5-even;
     if (input5>0){
       positive++;
     }else if(input5<0){
