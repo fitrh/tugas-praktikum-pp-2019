@@ -60,8 +60,8 @@ class Praktikum2Numbers{
     }
       
     odd = 5-even;
-    System.out.printf("%d Angka even\n",even);
-    System.out.printf("%d Angka odd\n",odd);
+    System.out.printf("%d Angka genap\n",even);
+    System.out.printf("%d Angka ganjil\n",odd);
     System.out.printf("%d Angka Positif\n",positive);
     System.out.printf("%d Angka Negatif\n",negative);
     }catch(Exception e){
