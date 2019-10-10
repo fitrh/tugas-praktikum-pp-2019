@@ -59,7 +59,7 @@ class Praktikum3ChangeCounter{
       counter++;
     }
     System.out.printf("%d uang Rp. 1.000\n",counter);
-    counter = 0
+    counter = 0;
 
   }
 }
