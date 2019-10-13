@@ -24,8 +24,8 @@ class RelativelyPrime{
         }else{
           max = arr[j];
         }
-        for (int k =2; k<max; k++){
-          if (arr[i]%k==0 && arr[j]%k==0 && arr[i]%arr[j]==0 || (arr[i]%arr[j]==0 || arr[j]%arr[i]==0)){
+        for (int k =2; k<=max; k++){
+          if (arr[i]%k==0 && arr[j]%k==0){
             count++;
           }
         }
