@@ -9,32 +9,17 @@ class RelativelyPrime{
     for (int i =0 ;  i<n  ; i++){
       arr[i] = input.nextInt();
     }
-    int iterations=0;
-    int max;
-    int nMinusOneFactorial = 1;
-    for (int i=1; i<n; i++){
-      nMinusOneFactorial *= i;
-    }
-    System.out.println("\nBilangan yang saling relatif prima dengan perulangan sebanyak " + nMinusOneFactorial + " kali :");
+    System.out.printf("\nBilangan yang saling relatif prima dengan perulangan sebanyak %d! :\n",n);
     for (int i = 0 ;i<n ;i++ ) {
-      for (int j = 0+1; j<n ;j++ ) {
-        int count=0;
-        if (arr[i]>=arr[j]){
-          max = arr[i];
-        }else{
-          max = arr[j];
-        }
-        for (int k =2; k<=max; k++){
+      for (int j = i; j<n ;j++ ) {
+        int count =0;
+        for (int k =2; k<=(arr[i]>arr[j]?arr[i]:arr[j]); k++){
           if (arr[i]%k==0 && arr[j]%k==0){
             count++;
           }
         }
         if(count==0){
           System.out.printf("%d %d\n",arr[i],arr[j]);
-        }
-        iterations++;
-        if(iterations==nMinusOneFactorial){
-          return;
         }
       }
     }
