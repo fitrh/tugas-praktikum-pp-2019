@@ -11,7 +11,6 @@ class NumberCount{
     }
     //Code Bellow Sorts Numbers
     for(int i =0; i<n;i++){
-      int number = Integer.MIN_VALUE;
       for(int j = i+1;j<n;j++){
         if ( numbers[i]>numbers[j] && (i != j) ){
           int memory = numbers[j];
