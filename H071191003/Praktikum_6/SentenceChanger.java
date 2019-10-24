@@ -4,7 +4,7 @@ class SentenceChanger{
     Scanner input = new Scanner(System.in);
     System.out.println("Input sentence :");
     String word = input.nextLine();
-    int wordLen = (int)Math.ceil(word.length()/2);
+    int wordLen = (int)Math.ceil((double)word.length()/2);
     String processedWord = word.substring(0,wordLen).replaceAll("\\s","").toUpperCase();
     for (int i = processedWord.length()-2; i>=0; i--){
       processedWord += processedWord.charAt(i);
