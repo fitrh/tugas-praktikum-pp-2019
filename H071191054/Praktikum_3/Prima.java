@@ -7,6 +7,7 @@ class Prima {
         int x = sl.nextInt();
         int jumlah = 0;
         boolean kondisi;
+        sl.close();
 
         for (int i = 2; i <= x; i++) {
             kondisi = true;

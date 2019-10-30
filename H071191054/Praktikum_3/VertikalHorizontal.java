@@ -9,6 +9,7 @@ class VertikalHorizontal {
         int y = sl.nextInt();
         System.out.printf("Jumlah Kolom\t: ");
         int x = sl.nextInt();
+        sl.close();
 
         for (int j = 1; i <= y; j++, i++) {
             System.out.printf(i + "\t");
