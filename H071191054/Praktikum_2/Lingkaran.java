@@ -9,7 +9,7 @@ class Lingkaran {
         double z = Math.sqrt(Math.pow(x, 2) + Math.pow(y, 2));
 
         if (z <= 25) {
-            System.out.println("Berada di dalam lingkaran A";
+            System.out.println("Berada di dalam lingkaran A");
         } else if (z <= 144) {
             System.out.println("Berada di dalam lingkaran B");
         } else if (z <= 400) {

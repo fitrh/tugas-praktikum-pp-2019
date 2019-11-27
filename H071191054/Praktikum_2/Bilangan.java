@@ -8,6 +8,7 @@ class Bilangan {
             int genap = 0;
             int positif = 0;
             int negatif = 0;
+
             System.out.print("Input bilangan");
             int a = sl.nextInt();
             int b = sl.nextInt();
