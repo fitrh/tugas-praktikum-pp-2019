@@ -9,9 +9,17 @@ class SelfDivision{
     int start = input.nextInt();
     System.out.print("Input end number : ");
     int end = input.nextInt();
-    for(int i = start; i<=end;i++){
-      if(canSelfDivide(i)){
-        System.out.print(i+" ");
+    if(start<end){
+      for(int i = start; i<=end;i++){
+        if(canSelfDivide(i) && i!=0){
+          System.out.print(i+" ");
+        }
+      }
+    }else{
+      for (int i = start; i >= end; i--) {
+        if (canSelfDivide(i) && i != 0) {
+          System.out.print(i + " ");
+        }
       }
     }
   }
@@ -32,9 +40,9 @@ class SelfDivision{
   }
   static List<Integer> seperateDigits(int number){
     List<Integer> seperatedDigits = new ArrayList<Integer>();
-    while (number > 0) {
-      seperatedDigits.add(number % 10);
-      number = number / 10;
+    while (number > 0 || number<0) {
+          seperatedDigits.add(number % 10);
+          number = number / 10;
     }
     return(seperatedDigits);
   }

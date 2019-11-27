@@ -7,7 +7,6 @@ class MorseCode{
     System.out.println("Input morse code : ");
     System.out.println("Translated code : "+processWord(input.nextLine()));
   }
-
   static String processWord(String word){
     int firstIndexOfSubstring = 0;
     String output = "";
